@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- tabel -->
+    <table align="center" border="1" cellspacing="0">
+        <!-- 表头th -->
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>sex</th>
+                <th>相关链接</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>chi</td>
+                <td>22</td>
+                <td>nan</td>
+                <td><a href="#">Huixuan chi</a></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <p>合并单元格</p>
+
+    <table align="center" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <!--跨行合并-->
+                <th rowspan="2">model</th>
+                <!-- 跨列合并 -->
+                <th colspan="2">Acc</th>
+                <!-- <tr></tr> -->
+            </tr>
+            <tr>
+                <!-- <th></th> -->
+                <th>Test</th>
+                <th>Valid</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+
+</html>

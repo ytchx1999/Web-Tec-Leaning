@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 表单 -->
+    <form action="demo.php" method="POST" name="chi">
+        <!-- input中的type属性很重要 -->
+        <!-- label标签，通过for字段和id属性进行关联 -->
+        <label for="username">用户名：</label>
+        <input type="text" name="user" id="username"> <br>
+        密码：<input type="password" name="passwd" maxlength="20"> <br>
+
+        <!-- 单选框：name应该相同，才能互斥，通过value来区分，checked默认选中 -->
+        性别：
+        <label for="male">男</label>
+        <input type="radio" name="sex" value="male" id="male" checked="checked">
+        <label for="female">女</label>
+        <input type="radio" name="sex" value="female" id="female"> <br>
+
+        <!-- 复选框：name应该相同，通过value来区分 -->
+        爱好：下棋 <input type="checkbox" name="hobby" value="go">
+        乒乓球 <input type="checkbox" name="hobby" value="pingpang"> <br>
+
+        <!-- 提交，和form中的action等属性有关 -->
+        <input type="submit" value="注册">
+        <input type="reset" value="重置"> <br>
+
+        <!-- 用于事件响应（js） -->
+        <input type="button" value="普通按钮"> <br>
+        <!-- 上传文件 -->
+        <input type="file"> <br>
+
+
+        <!-- select表单 -->
+        籍贯：
+        <select name="jiguan" id="">
+            <option value="">山东</option>
+            <option value="" selected="selected">北京</option>
+        </select>
+        <br>
+
+        <!-- 文本域textarea表单 -->
+        <textarea name="" id="" cols="30" rows="10">文本域标签</textarea>
+
+    </form>
+</body>
+
+</html>
