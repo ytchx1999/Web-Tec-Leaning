@@ -1,0 +1,36 @@
+body {
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    line-height: 28px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+div {
+    text-align: center;
+}
+
+.gray-font {
+    color: gray;
+    font-size: 10px;
+}
+
+.search {
+    color: gray;
+    width: 170px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-indent: 2em;
+}
+
+img {
+    align: center;
+}
