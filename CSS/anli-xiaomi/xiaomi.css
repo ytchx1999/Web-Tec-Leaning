@@ -1,0 +1,19 @@
+a {
+    display: block;
+    width: 290px;
+    height: 50px;
+    /* background-color: rgb(255, 109, 27); */
+    background-color: #525758;
+    color: #f9f9f3;
+    text-decoration: none;
+    /* text-align: center; */
+    font-family: 'Microsoft Yahei';
+    font-size: 16px;
+    text-indent: 2em;
+    /* 文字垂直居中（行高==盒子的高度） */
+    line-height: 50px;
+}
+
+a:hover {
+    background-color: #ff6d1b;
+}

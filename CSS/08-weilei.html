@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 链接伪类选择器，按照LVHA的顺序书写 */
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* 未访问过 */
+        /* a:link {
+            color: red;
+        } */
+
+        /* 已访问过 */
+        /* a:visited {
+            color: purple;
+        } */
+
+        /* 鼠标停留 */
+        a:hover {
+            color: cyan;
+            text-decoration: underline;
+        }
+
+        /* 鼠标点击 */
+        /* a:active {
+            color: black;
+        } */
+
+        /* focus伪类选择器，改变input获得光标的 */
+        input:focus {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 链接伪类选择器 -->
+    <a href="#">链接伪类选择器</a>
+    <!-- focus伪类选择器 -->
+    <input type="text">
+</body>
+
+</html>

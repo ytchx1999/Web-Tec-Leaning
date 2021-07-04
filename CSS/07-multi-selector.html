@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 后代选择器 */
+        ul li {
+            color: red;
+        }
+
+        div ol li {
+            color: green;
+        }
+
+        .red li {
+            color: grey;
+        }
+
+        /* 子选择器，必须是亲儿子 */
+        /* ol a {
+            color: hotpink;
+        } */
+        ol>a {
+            color: hotpink;
+        }
+
+        /* 并集选择器 */
+        div,
+        p,
+        .num li {
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>后代选择器</li>
+        <li>后代选择器</li>
+        <li>后代选择器</li>
+    </ul>
+
+    <!-- 可以用任意基础选择器，不一定非要是标签 -->
+    <ul class="red">
+        <li>后代选择器</li>
+        <li>后代选择器</li>
+        <li>后代选择器</li>
+    </ul>
+
+    <div>
+        <ol>
+            <li>后代选择器</li>
+            <li>后代选择器</li>
+            <li>后代选择器</li>
+            <li>后代选择器</li>
+        </ol>
+    </div>
+
+    <!-- 子选择器 -->
+    <ol>
+        <a href="#">儿子</a>
+        <li>
+            <a href="#">孙子</a>
+        </li>
+    </ol>
+
+    <!-- 并集选择器 -->
+    <p>1111</p>
+    <div>2222</div>
+    <ul class="num">
+        <li>3333</li>
+        <li>4444</li>
+    </ul>
+
+</body>
+
+</html>
