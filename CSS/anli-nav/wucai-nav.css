@@ -1,0 +1,50 @@
+a {
+    display: inline-block;
+    width: 120px;
+    height: 58px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 48px;
+    background-position: center;
+    text-align: center;
+}
+
+.nav1 {
+    background-image: url(./images/bg1.png);
+    background-repeat: no-repeat;
+}
+
+.nav1:hover {
+    background-image: url(./images/bg2.png);
+    background-repeat: no-repeat;
+}
+
+.nav2 {
+    background-image: url(./images/bg3.png);
+    background-repeat: no-repeat;
+}
+
+.nav2:hover {
+    background-image: url(./images/bg4.png);
+    background-repeat: no-repeat;
+}
+
+.nav3 {
+    background-image: url(./images/bg5.png);
+    background-repeat: no-repeat;
+}
+
+.nav3:hover {
+    background-image: url(./images/bg6.png);
+    background-repeat: no-repeat;
+}
+
+.nav4 {
+    background-image: url(./images/bg7.png);
+    background-repeat: no-repeat;
+}
+
+.nav4:hover {
+    background-image: url(./images/bg8.png);
+    background-repeat: no-repeat;
+}
