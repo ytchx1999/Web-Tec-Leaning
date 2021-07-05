@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 层叠性 */
+        p {
+            color: red;
+            font-weight: 700;
+        }
+
+        p {
+            color: gray;
+        }
+
+        /* 继承性（和文字相关的） */
+        div {
+            color: red;
+            font-size: 14px;
+        }
+
+        body {
+            font-size: 12px;
+            /* 行高是文字大小的1.5倍  */
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        层叠性
+    </p>
+
+    <div>
+        <ul>
+            <li>继承性</li>
+        </ul>
+    </div>
+</body>
+
+</html>

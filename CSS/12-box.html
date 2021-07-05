@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 盒子模型 */
+        /* div {
+            margin: 10px;
+        } */
+
+        .box1 {
+            width: 400px;
+            height: 400px;
+            /* 边框border */
+            /* border-width: 10px; */
+            /* border-style: solid; */
+            /* border-style: dashed; */
+            /* border-style: dotted; */
+            /* border-color: red; */
+
+            /* 复合写法 */
+            border-bottom: 10px solid red;
+            border-top: 10px dotted pink;
+            border-left: 10px dashed #000;
+            border-right: 10px solid gray;
+
+            text-align: center;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            /* 边框 */
+            border: 10px solid blue;
+            border-top: 10px solid red;
+            /* 内边距 */
+            padding-left: 20px;
+            padding-top: 20px;
+            /* 外边距，水平居中 */
+            margin: 20px auto;
+        }
+
+        table {
+            width: 200px;
+            height: 100px;
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid red;
+            /* 相邻边框合并 */
+            border-collapse: collapse;
+        }
+
+        .out {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            /* 解决嵌套塌陷 */
+            /* 1. 设置边框 */
+            /* border: 1px solid transparent; */
+            overflow: hidden;
+        }
+
+        .in {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">盒子模型</div>
+    <div class="box2">盒子模型</div>
+
+    <table align="center" cellspacing="0">
+        <tr>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+        </tr>
+        <tr>
+            <td>chi</td>
+            <td>nan</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <!-- 嵌套塌陷 -->
+    <div class="out">
+        <div class="in"></div>
+    </div>
+</body>
+
+</html>
