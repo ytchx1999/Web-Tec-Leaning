@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .f1 {
+            width: 200px;
+            background-color: pink;
+            /* 给父元素添加overflow */
+            overflow: hidden;
+        }
+
+        .f1 .son1,
+        .son2,
+        .son3 {
+            float: left;
+            width: 90px;
+            height: 100px;
+            background-color: gray;
+        }
+
+        .f1 .clear {
+            clear: both;
+        }
+
+        .f2 {
+            width: 200px;
+            height: 200px;
+            margin-top: 50px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="f1">
+        <div class="son1"></div>
+        <div class="son2"></div>
+        <div class="son3"></div>
+        <!-- 额外标签，必须是块级元素 -->
+        <!-- <div class="clear"></div> -->
+    </div>
+    <div class="f2"></div>
+</body>
+
+</html>

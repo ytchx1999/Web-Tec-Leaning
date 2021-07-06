@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.father {
+    width: 1227px;
+    height: 460px;
+    background-color: pink;
+    margin: 50px auto;
+}
+
+.lf {
+    float: left;
+    width: 348px;
+    height: 460px;
+    background-color: gray;
+}
+
+.rt {
+    float: left;
+    width: 879px;
+    height: 460px;
+    background-color: orange;
+}
+
+.fa2 {
+    width: 1227px;
+    height: 285px;
+    background-color: pink;
+    margin: 50px auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.fa2 ul li {
+    width: 295px;
+    height: 285px;
+    float: left;
+    background-color: gray;
+    margin-right: 15.67px;
+}
+
+.fa2 ul .rt1 {
+    margin-right: 0;
+}
+
+.fa3 {
+    width: 1227px;
+    height: 615px;
+    background-color: pink;
+    margin: 50px auto;
+}
+
+.fa3 .son1 {
+    width: 235px;
+    height: 615px;
+    background-color: gray;
+    float: left;
+}
+
+.fa3 .son2 {
+    width: 980px;
+    height: 615px;
+    background-color: orange;
+    float: right;
+}
+
+/* 235 300 */
+.fa3 .son2 ul li {
+    width: 235px;
+    height: 300px;
+    background-color: skyblue;
+    float: left;
+    margin-right: 13.3px;
+    margin-bottom: 15px;
+}
+
+.fa3 .son2 ul .last {
+    margin-right: 0;
+    float: right;
+}

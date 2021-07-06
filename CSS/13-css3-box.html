@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .juxing {
+            width: 200px;
+            height: 100px;
+            border-radius: 10px;
+            /* 圆角框 */
+            background-color: red;
+            /* 盒子阴影：水平d 垂直d 模糊程度 影子大小 */
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .yuan {
+            width: 200px;
+            height: 200px;
+            /* 圆形 */
+            /* border-radius: 100px; */
+            border-radius: 50%;
+            background-color: gray;
+        }
+
+        .yuan:hover {
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .yuanjiao {
+            width: 200px;
+            height: 100px;
+            border-radius: 50px;
+            background-color: pink;
+        }
+
+        .textyy {
+            font-size: 40px;
+            text-shadow: 5px 5px 10px # 000;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 盒子阴影 -->
+    <div class="juxing ">圆角框</div>
+    <div class="yuan"></div>
+    <div class="yuanjiao"></div>
+    <!-- 文字阴影 -->
+    <p class="textyy">文字阴影</p>
+</body>
+
+</html>
