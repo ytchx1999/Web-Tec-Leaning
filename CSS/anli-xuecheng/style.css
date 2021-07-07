@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5f7;
+}
+
+li {
+    /* display: inline-block; */
+    list-style-type: none;
+}
+
+.w {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 42px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    /* background-color: pink; */
+}
+
+.header .logo {
+    float: left;
+    height: 100%;
+    padding-right: 55px;
+}
+
+.header .nav {
+    float: left;
+    height: 42px;
+}
+
+.header .nav ul li {
+    float: left;
+}
+
+.header .nav ul li a {
+    display: inline-block;
+    height: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header .nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+.header .search {
+    float: left;
+    height: 42px;
+}
+
+.header .search input {
+    float: left;
+    display: inline-block;
+    margin-left: 70px;
+    width: 360px;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    line-height: 38px;
+    background-color: #f3f5f7;
+    color: #bfbfbf;
+    text-indent: 20px;
+}
+
+.header .search button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    border: none;
+}
+
+.header .user {
+    float: left;
+    height: 42px;
+}
+
+.header .user .circ {
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+    width: 33px;
+    height: 33px;
+    border-radius: 16.5px;
+    background-color: red;
+}
+
+.header .user p {
+    display: inline-block;
+    /* height: 42px; */
+    /* line-height: 42px; */
+    padding-top: 5px;
+    padding-left: 5px;
+    /* color: #bfbfbf; */
+}
